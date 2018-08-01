@@ -1,0 +1,33 @@
+.error-invalid{
+	color: red;
+}
+
+.body-color{
+	background-color: #87ade6;
+}
+
+.action-normal{
+	color: #00ff6f;
+}
+
+.action-failure{
+	color: red;
+}
+
+.action-success{
+	color: green;
+}
+
+table.beautiful{
+	border: 1px solid black;
+}
+
+th{
+	background-color: #0066cc;
+	font-size: large;
+	padding: 8px;
+}
+
+td{
+	padding: 4px;
+}
