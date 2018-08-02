@@ -11,7 +11,7 @@
 <body class="body-color">
 	<%@ include file="header.jsp" %>
 	<h2 align="center">Add New Category</h2>
-	<a href="${pageContext.request.contextPath}/category/showAllCategories"><input type="button" class="link" value="Show All Categories"></a>
+	<a href="${pageContext.request.contextPath}/category/showAllCategories"><input type="button" class="button-link" value="Show All Categories"></a>
 	<div align="center">
 		<c:if test="${result != null}">
 			<div>

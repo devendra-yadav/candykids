@@ -32,6 +32,8 @@ td{
 	padding: 4px;
 }
 
-button.link{
-	background-color: #D6EAF8;
+.button-link{
+	background-color: #117A65;
+	border-radius: 5px;
+	padding: 10px;
 }

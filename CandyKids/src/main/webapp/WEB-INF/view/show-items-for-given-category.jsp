@@ -13,7 +13,7 @@
 	<h2 align="center">Choose Category</h2>
 	
 	<div align="left">
-		<a href="${pageContext.request.contextPath}/items/showAllItems"><input type="button" class="link" value="Show All Items"></a>
+		<a href="${pageContext.request.contextPath}/items/showAllItems"><input type="button" class="button-link" value="Show All Items"></a>
 	</div>
 	
 	<div align="center">
@@ -69,8 +69,8 @@
 					<td>${item.entryDate}</td>
 					<td width="10%">${item.comments}</td>
 					<td>
-						<a href="${pageContext.request.contextPath}/items/formEditItem?itemId=${item.itemId}"><input type="button" class="link" value="Edit"></a>
-						<a href="${pageContext.request.contextPath}/items/deleteItem?itemId=${item.itemId}" title="Delete Item" onclick="return confirm('Are you sure you want to delete item with item id -->${item.itemId}<--')"><input type="button" class="link" value="Delete"></a>
+						<a href="${pageContext.request.contextPath}/items/formEditItem?itemId=${item.itemId}"><input type="button" class="button-link" value="Edit"></a>
+						<a href="${pageContext.request.contextPath}/items/deleteItem?itemId=${item.itemId}" title="Delete Item" onclick="return confirm('Are you sure you want to delete item with item id -->${item.itemId}<--')"><input type="button" class="button-link" value="Delete"></a>
 					</td>
 				</tr>
 			</c:forEach>
