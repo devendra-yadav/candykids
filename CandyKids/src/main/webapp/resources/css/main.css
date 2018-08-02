@@ -36,10 +36,12 @@ td{
 	background-color: #117A65;
 	border-radius: 5px;
 	padding: 10px;
+	border: 1px;
 }
 
 .submit{
 	background-color: #117A65;
 	border-radius: 5px;
 	padding: 5px;
+	border: 1px;
 }
