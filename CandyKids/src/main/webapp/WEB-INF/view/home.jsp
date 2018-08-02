@@ -14,19 +14,19 @@
 		<table>
 			<tr>
 				<td>
-					<a href="${pageContext.request.contextPath}/category/form-add-category"><input type="button" value="Add Category"></a>
+					<a href="${pageContext.request.contextPath}/category/form-add-category"><input type="button" class="link" value="Add Category"></a>
 				</td>
 				<td>
-					<a href="${pageContext.request.contextPath}/category/showAllCategories"><input type="button" value="Show Categories"></a>
+					<a href="${pageContext.request.contextPath}/category/showAllCategories"><input type="button" class="link" value="Show Categories"></a>
 				</td>
 				<td>
-					<a href="${pageContext.request.contextPath}/items/form-add-item"><input type="button" value="Add New Item"></a>
+					<a href="${pageContext.request.contextPath}/items/form-add-item"><input type="button" class="link" value="Add New Item"></a>
 				</td>
 				<td>
-					<a href="${pageContext.request.contextPath}/items/showAllItems"><input type="button" value="Show All Items"></a>
+					<a href="${pageContext.request.contextPath}/items/showAllItems"><input type="button" class="link" value="Show All Items"></a>
 				</td>
 				<td>
-					<a href="${pageContext.request.contextPath}/items/formShowItemsForGivenCategory"><input type="button" value="Show Items For Specific Category"></a>
+					<a href="${pageContext.request.contextPath}/items/formShowItemsForGivenCategory"><input type="button" class="link" value="Show Items For Specific Category"></a>
 				</td>
 			</tr>
 		</table>

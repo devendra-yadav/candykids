@@ -74,7 +74,7 @@
 		<h2>Add New Item</h2>
 		
 		<div align="left">
-			<a href="${pageContext.request.contextPath}/items/showAllItems"><input type="button" value="Back to all items"></a>
+			<a href="${pageContext.request.contextPath}/items/showAllItems"><input type="button" class="link" value="Back to all items"></a>
 		</div>
 		
 		<div>
