@@ -13,4 +13,5 @@ public interface ItemsDao {
 	public List<Items> getAllItems();
 	public Map<String, String> deleteItem(String itemId);
 	public Items getItem(String itemId);
+	public List<Items> getItemsForCategory(String category);
 }

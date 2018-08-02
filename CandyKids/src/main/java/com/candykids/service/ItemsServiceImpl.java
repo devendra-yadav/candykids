@@ -64,4 +64,11 @@ public class ItemsServiceImpl implements ItemsService {
 		return itemsDao.getItem(itemId);
 	}
 
+	@Override
+	@Transactional
+	public List<Items> getItemsForCategory(String category) {
+		// TODO Auto-generated method stub
+		return itemsDao.getItemsForCategory(category);
+	}
+
 }

@@ -110,4 +110,30 @@ public class ItemsController {
 		return "show-all-items";
 	}
 	
+	@GetMapping("/formShowItemsForGivenCategory")
+	public String showFormForGivenCategory(Model model) {
+		
+		List<Category> allCategories=categoryService.getAllCategories();
+		model.addAttribute("allCategories",allCategories);
+		
+		return "show-items-for-given-category";
+	}
+	
+	@GetMapping("/showItemsForGivenCategory")
+	public String showItemsForGivenCategory(@RequestParam("category") String category, Model model) {
+		
+		List<Items> allItems=itemsService.getItemsForCategory(category);
+		if(allItems!=null && allItems.size()==0) {
+			allItems=null;
+			System.out.println("Set allitems to null-----------------------");
+		}
+		model.addAttribute("allItems",allItems);
+		
+		List<Category> allCategories=categoryService.getAllCategories();
+		model.addAttribute("allCategories",allCategories);
+		
+		model.addAttribute("chosenCategory",category);
+		
+		return "show-items-for-given-category";
+	}
 }

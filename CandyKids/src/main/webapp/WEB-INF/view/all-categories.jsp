@@ -41,7 +41,7 @@
 					<td>
 						<a href="${pageContext.request.contextPath}/category/showEditForm?categoryId=${category.categoryId}" title="Edit Category"><input type="button" value="Edit"></a>
 						<a href="${pageContext.request.contextPath}/category/deleteCategory?categoryId=${category.categoryId}" title="Delete Category" onclick="return confirm('Are you sure you want to delete -->${category.name}<-- category')"><input type="button" value="Delete"></a>
-						<a href="#"><input type="button" value="View Items"></a>
+						<a href="${pageContext.request.contextPath}/items/showItemsForGivenCategory?category=${category.name}"><input type="button" value="View Items"></a>
 					</td>
 				</tr>
 			</c:forEach>

@@ -10,7 +10,7 @@
 </head>
 <body class="body-color">
 	<%@ include file="header.jsp" %>
-	<div>
+	<div align="center">
 		<table>
 			<tr>
 				<td>
@@ -25,9 +25,11 @@
 				<td>
 					<a href="${pageContext.request.contextPath}/items/showAllItems"><input type="button" value="Show All Items"></a>
 				</td>
+				<td>
+					<a href="${pageContext.request.contextPath}/items/formShowItemsForGivenCategory"><input type="button" value="Show Items For Specific Category"></a>
+				</td>
 			</tr>
 		</table>
 	</div>
-	
 </body>
 </html>

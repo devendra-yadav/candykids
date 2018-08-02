@@ -105,4 +105,16 @@ public class ItemsDaoImpl implements ItemsDao {
 		return item;
 	}
 
+	@Override
+	public List<Items> getItemsForCategory(String category) {
+		
+		Session session=sessionFactory.getCurrentSession();
+		Category theCategory=(Category)session.createQuery("from Category c where c.name=:name").setParameter("name", category).getResultList().get(0);
+		
+		List<Items> allItems=session.createQuery("from Items i where i.category=:category").
+				setParameter("category", theCategory).getResultList();
+		
+		return allItems;
+	}
+
 }
