@@ -165,7 +165,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" align="center">
-						<input type="submit" value="Save Item" onclick="return checkFormData()"/>
+						<input type="submit" class="submit" value="Save Item" onclick="return checkFormData()"/>
 					</td>
 				</tr>
 			</table>

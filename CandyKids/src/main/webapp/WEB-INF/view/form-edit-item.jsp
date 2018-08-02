@@ -179,7 +179,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" align="center">
-						<input type="submit" value="Update Item" onclick="return checkFormData()"/>
+						<input type="submit" class="submit" value="Update Item" onclick="return checkFormData()"/>
 					</td>
 				</tr>
 			</table>

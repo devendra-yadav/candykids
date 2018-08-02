@@ -9,11 +9,11 @@
 	<table>
 		<tr>
 			<td><form:form method="GET"	action="${pageContext.request.contextPath}/">
-					<input type="submit" value="Home" />
+					<input type="submit" class="submit" value="Home" />
 				</form:form></td>
 
 			<td><form:form method="POST" action="${pageContext.request.contextPath}/logout">
-					<input type="submit" value="LogOut" />
+					<input type="submit" class="submit" value="LogOut" />
 				</form:form></td>
 		</tr>
 	</table>

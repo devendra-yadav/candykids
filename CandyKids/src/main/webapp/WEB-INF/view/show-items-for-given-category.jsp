@@ -29,7 +29,7 @@
 						</c:if>
 					</c:forEach>
 				</select>
-				<input type="submit" value="Show Items">
+				<input type="submit" class="submit" value="Show Items">
 			</form:form>
 		</c:if>
 		<c:if test="${allCategories==null}">
