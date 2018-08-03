@@ -35,7 +35,7 @@
 	<div align="center">
 		<table class="beautiful">
 			<tr>
-				<th>ItemId</th>
+				<th>Item Id</th>
 				<th>Title</th>
 				<th>Description</th>
 				<th>Cost Price</th>

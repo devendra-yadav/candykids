@@ -169,7 +169,7 @@
 				<tr>
 					<td>Quantity</td>	
 					<td>
-						<form:input path="quantity"/> 
+						<form:input path="quantity" id="quantity"/> 
 						<form:errors path="quantity" cssClass="error-invalid"/> 
 					</td>
 				</tr>			
