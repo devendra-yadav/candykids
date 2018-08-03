@@ -41,6 +41,10 @@ public class Items {
 	@Column(name="image_path")
 	private String imagePath;
 	
+	@Column(name="quantity")
+	@NumberFormat(style=Style.NUMBER)
+	private int quantity;
+	
 	@Column(name="supplier")
 	private String supplier;
 	
@@ -58,7 +62,7 @@ public class Items {
 		
 	}
 
-	public Items(String title, String description, double costPrice, double sellingPrice, String imagePath,
+	public Items(String title, String description, double costPrice, double sellingPrice, String imagePath, int quantity,
 			String supplier, String comments, Category category) {
 	
 		this.title = title;
@@ -66,6 +70,7 @@ public class Items {
 		this.costPrice = costPrice;
 		this.sellingPrice = sellingPrice;
 		this.imagePath = imagePath;
+		this.quantity = quantity;
 		this.supplier = supplier;
 		this.comments = comments;
 		this.category = category;
@@ -119,6 +124,14 @@ public class Items {
 		this.imagePath = imagePath;
 	}
 
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
 	public String getSupplier() {
 		return supplier;
 	}
@@ -154,8 +167,9 @@ public class Items {
 	@Override
 	public String toString() {
 		return "Items [itemId=" + itemId + ", title=" + title + ", description=" + description + ", costPrice="
-				+ costPrice + ", sellingPrice=" + sellingPrice + ", imagePath=" + imagePath + ", supplier=" + supplier
-				+ ", entryDate=" + entryDate + ", comments=" + comments + ", category=" + category + "]";
+				+ costPrice + ", sellingPrice=" + sellingPrice + ", imagePath=" + imagePath + ", quantity=" + quantity
+				+ ", supplier=" + supplier + ", entryDate=" + entryDate + ", comments=" + comments + ", category="
+				+ category + "]";
 	}
 	
 }

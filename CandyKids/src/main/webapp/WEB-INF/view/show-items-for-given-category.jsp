@@ -49,6 +49,7 @@
 				<th>Selling Price</th>
 				<th>Category</th>
 				<th>Image</th>
+				<th>Quantity</th>
 				<th>Supplier</th>
 				<th>Entry Date</th>
 				<th>Comments</th>
@@ -65,6 +66,7 @@
 					<td>
 						<a href="${item.imagePath}" target="_blank"><img src="${item.imagePath}" height="100" width="100"></a>
 					</td>
+					<td width="10%">${item.quantity}</td>
 					<td width="10%">${item.supplier}</td>
 					<td>${item.entryDate}</td>
 					<td width="10%">${item.comments}</td>

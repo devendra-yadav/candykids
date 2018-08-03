@@ -45,6 +45,7 @@
 		var costPrice=document.getElementById("costPrice").value;
 		var sellingPrice=document.getElementById("sellingPrice").value;
 		var category=document.getElementById("category").value;
+		var quantity=document.getElementById("quantity").value;
 		
 		var alertMessage="";
 		if(isNaN(costPrice)){
@@ -53,6 +54,10 @@
 		
 		if(isNaN(sellingPrice)){
 			alertMessage=alertMessage+"Selling Price '"+sellingPrice+"' should be a number.\n";
+		}
+		
+		if(isNaN(quantity)){
+			alertMessage=alertMessage+"Quantity '"+quantity+"' should be a number.\n";
 		}
 		
 		if(category=="-"){
@@ -160,7 +165,14 @@
 						<form:input path="sellingPrice" id="sellingPrice"/>
 						<form:errors path="sellingPrice" cssClass="error-invalid"/> 
 					</td>
-				</tr>		
+				</tr>
+				<tr>
+					<td>Quantity</td>	
+					<td>
+						<form:input path="quantity"/> 
+						<form:errors path="quantity" cssClass="error-invalid"/> 
+					</td>
+				</tr>			
 				<tr>
 					<td>Supplier</td>
 					<td><form:input path="supplier"/> </td>

@@ -39,8 +39,22 @@ td{
 	border: 1px;
 }
 
+.button-link:hover{
+	background-color: #16A085;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px;
+}
+
 .submit{
 	background-color: #117A65;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px;
+}
+
+.submit:hover{
+	background-color: #16A085;
 	border-radius: 5px;
 	padding: 5px;
 	border: 1px;
