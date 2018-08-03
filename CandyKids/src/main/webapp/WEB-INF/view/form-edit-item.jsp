@@ -6,7 +6,7 @@
 <head>
 <link href='<c:url value="/resources/css/main.css"/>' rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Add New Item</title>
+<title>Candy Kids. Update Item</title>
 <script type="text/javascript">
 	function showImage(elementId) {
 		

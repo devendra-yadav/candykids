@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link href='<c:url value="/resources/css/main.css"/>' rel="stylesheet">
-<title>CandyKids Login form</title>
+<title>Candy Kids Login form</title>
 </head>
 <body class="body-color">
 	<center>

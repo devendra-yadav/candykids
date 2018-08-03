@@ -6,7 +6,7 @@
 <head>
 <link href='<c:url value="/resources/css/main.css"/>' rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>All Categories</title>
+<title>CandyKids. All Categories</title>
 </head>
 <body class="body-color">
 	<%@ include file="header.jsp" %>
