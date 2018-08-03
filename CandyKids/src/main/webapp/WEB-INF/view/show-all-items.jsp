@@ -42,7 +42,7 @@
 				<th>Selling Price</th>
 				<th>Category</th>
 				<th>Image</th>
-				<th>Quantity</th>
+				<th>Qty</th>
 				<th>Supplier</th>
 				<th>Entry Date</th>
 				<th>Comments</th>
